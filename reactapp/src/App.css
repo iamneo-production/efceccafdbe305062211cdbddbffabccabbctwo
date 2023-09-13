@@ -1,0 +1,194 @@
+/* App.css */
+
+/* Apply styles to the entire app */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #007bff;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: 200px;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-bottom: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* Main content styles */
+.Main-content {
+  padding: 20px;
+  flex: 1;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Student List styles */
+.student-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.student-list h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.student-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-list li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.student-list li:hover {
+  background-color: #e0e0e0;
+}
+
+/* Student Details styles */
+.student-details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.student-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Student Form styles */
+.student-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.student-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.student-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.student-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Enroll Student styles */
+.enroll-student {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.enroll-student h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.enroll-student form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Edit Student styles */
+.edit-student {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.edit-student h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.edit-student form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add more styles as needed for your components */
